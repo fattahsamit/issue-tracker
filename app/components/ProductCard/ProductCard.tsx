@@ -1,9 +1,9 @@
 import AddToCart from "./AddToCart";
-import styles from "./ProductCard.module.css";
+// import styles from "./ProductCard.module.css";
 
 const ProductCard = () => {
   return (
-    <div className={styles.card}>
+    <div className="pt-5">
       <AddToCart />
     </div>
   );
